@@ -1,2 +1,8 @@
-# Decision-Tree-RF
-„Task includes training Decision Tree and Random Forest models using a heart disease dataset. Implemented tree visualization, depth control, feature importance, accuracy comparison, and cross-validation. Tools used: Scikit-learn, Matplotlib, Graphviz.”
+# Task 5: Decision Trees & Random Forests
+
+This task includes training a Decision Tree and Random Forest model using a heart disease dataset.
+The project covers tree visualization, depth control, model comparison, feature importance, and
+cross-validation.
+
+Tools: Scikit-learn, Graphviz
+Dataset: heart.csv
