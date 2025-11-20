@@ -1,0 +1,39 @@
+Task 5: Decision Trees & Random Forests
+
+Dataset used: heart.csv
+
+Decision Tree (max_depth=4) Results:
+Accuracy: 0.8000
+
+              precision    recall  f1-score   support
+
+           0       0.88      0.70      0.78       102
+           1       0.75      0.90      0.82       103
+
+    accuracy                           0.80       205
+   macro avg       0.81      0.80      0.80       205
+weighted avg       0.81      0.80      0.80       205
+
+Confusion Matrix:
+[[71 31]
+ [10 93]]
+
+Random Forest Results:
+Accuracy: 0.9854
+
+              precision    recall  f1-score   support
+
+           0       0.97      1.00      0.99       102
+           1       1.00      0.97      0.99       103
+
+    accuracy                           0.99       205
+   macro avg       0.99      0.99      0.99       205
+weighted avg       0.99      0.99      0.99       205
+
+Confusion Matrix:
+[[102   0]
+ [  3 100]]
+
+Cross-Validation (5-fold) Scores:
+[1.         1.         1.         1.         0.98536585]
+Mean CV Accuracy: 0.9971
